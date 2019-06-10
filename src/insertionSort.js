@@ -7,7 +7,7 @@ function insertionSort(arr) {
       arr[n] ^= arr[n-1];
       arr[n-1] ^= arr[n];
       arr[n] ^= arr[n-1];
-      n = n-2
+      n -= 2
     }
   }
   return arr
